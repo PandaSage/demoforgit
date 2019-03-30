@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>template</title>
+	<!-- Tell the browser to be responsive to screen width -->
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="../../css/common.css">
+	<link rel="stylesheet" href="../../css/font-awesome.min.css">
+	<link rel="stylesheet" href="../../css/jquery/jquery-ui.css">
+	<link rel="stylesheet" href="../../css/jquery/ui.jqgrid.css">
+	<link rel="stylesheet" href="../../css/content.css">
+	<!--[if lt IE 9]>
+	<script src="../../js/html5shiv.min.js"></script>
+	<script src="../../js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<!-- Logo -->
+			<a href="#" class="logo">
+				<span class="logo-mini"><b>Adm</b></span>
+				<span class="logo-lg"><b>Admin</b></span>
+			</a>
+			<!-- Header topNav -->
+			<nav class="topNav clearfix">
+				<!-- Sidebar toggle button-->
+				<a href="#" class="sidebar-toggle">
+					<span class="sr-only">Toggle navigation</span>
+				</a>
+				<!-- topNav nav_menu -->
+				<div class="nav_menu">
+					<ul class="nav clearfix">
+						<li class="dropdown msg_menu">
+							<a href="#" class="dropdown-toggle">
+								<i class="fa fa-envelope-o"></i>
+								<span class="label label-success">4</span>
+							</a>
+						</li>
+						<!-- Notifications -->
+						<li class="dropdown noti_menu">
+							<a href="#" class="dropdown-toggle">
+								<i class="fa fa-bell-o"></i>
+								<span class="label label-warning">10</span>
+							</a>
+						</li>
+						<!-- Tasks -->
+						<li class="dropdown tasks-menu">
+							<a href="#" class="dropdown-toggle">
+								<i class="fa fa-flag-o"></i>
+								<span class="label label-danger">9</span>
+							</a>
+						</li>
+						<!-- User Account -->
+						<li class="dropdown user-menu">
+							<a href="#" class="dropdown-toggle">
+								<img src="../../images/temp/temp_user_img.jpg" class="user-image" alt="User Image">
+								<span class="user_name">Alexander Pierce</span>
+							</a>
+						</li>
+						<!-- Control Sidebar Toggle Button -->
+						<li>
+							<a href="#" class="btn_Rsidebar"><i class="fa fa-gears"></i></a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<aside class="main-sidebar">
+			<section class="sidebar">
+				<!-- user-panel -->
+				<div class="user-panel">
+					<div class="pull-left image">
+						<img src="../../images/temp/temp_user_img.jpg" class="img-circle" alt="User Image">
+					</div>
+					<div class="pull-left info">
+						<p>Alexander Pierce</p>
+						<a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+					</div>
+				</div>
+				<!-- //.user-panel -->
+
+				<!-- search form -->
+				<form action="#" method="get" class="sidebar-form">
+					<div class="input-group">
+						<input type="text" name="q" class="form-control" placeholder="Search...">
+						<span class="input-group-btn">
+							<button type="submit" name="search" id="search-btn" class="btn btn-flat">
+								<i class="fa fa-search"></i>
+							</button>
+						</span>
+					</div>
+				</form>
+				<!-- //.search form -->
+
+				<!-- sidebar menu -->
+				<ul class="sidebar-menu" data-widget="tree">
+					<li class="header">Templates</li>
+					<li class="treeview">
+						<a href="#">
+							<i class="fa fa-table"></i>
+							<span>Tables</span>
+							<span class="pull-right-container">
+								<i class="fa fa-angle-left pull-right"></i>
+							</span>
+						</a>
+						<ul class="treeview-menu">
+							<li><a href="#"><i class="fa fa-circle-o"></i> Simple tables</a></li>
+							<li><a href="#"><i class="fa fa-circle-o"></i> Data tables</a></li>
+						</ul>
+					</li>
+					<li class="treeview active menu-open">
+						<a href="#">
+							<i class="fa fa-pie-chart"></i>
+							<span>Charts</span>
+							<span class="pull-right-container">
+								<i class="fa fa-angle-left pull-right"></i>
+							</span>
+						</a>
+						<ul class="treeview-menu">
+							<li class="active"><a href="#"><i class="fa fa-circle-o"></i> Charts</a></li>
+						</ul>
+					</li>
+					<li class="treeview">
+						<a href="#">
+							<i class="fa fa-laptop"></i>
+							<span>UI Elements</span>
+							<span class="pull-right-container">
+								<i class="fa fa-angle-left pull-right"></i>
+							</span>
+						</a>
+						<ul class="treeview-menu">
+							<li><a href="#"><i class="fa fa-circle-o"></i> Buttons</a></li>
+							<li><a href="#"><i class="fa fa-circle-o"></i> Paging</a></li>
+							<li><a href="#"><i class="fa fa-circle-o"></i> Sliders</a></li>
+						</ul>
+					</li>
+					<li class="treeview">
+						<a href="#">
+							<i class="fa fa-share"></i>
+							<span>Popup</span>
+							<span class="pull-right-container">
+								<i class="fa fa-angle-left pull-right"></i>
+							</span>
+						</a>
+						<ul class="treeview-menu">
+							<li><a href="#"><i class="fa fa-circle-o"></i> layerPopup</a></li>
+							<li><a href="#"><i class="fa fa-circle-o"></i> modalPopup</a></li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<!-- //.sidebar -->
+		</aside>
+
+		<div class="content-wrapper">
+			<!-- content-header -->
+			<section class="content-header">
+				<h1>
+					Charts
+					<small>차트</small>
+				</h1>
+				<ol class="breadcrumb">
+					<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+					<li class="active">Charts</li>
+				</ol>
+			</section>
+
+		    <!-- content -->
+		    <section class="content">
+		    	<h2 class="tit">Bar Chart v1(반응형 X)</h2>
+		    	<div class="scrBox_X">
+		    		<div id="barchart_material" style="width: 900px; height: 500px;"></div>
+		    	</div>
+
+		    	<br/><br/><br/><br/>
+
+		    	<h2 class="tit">Bar Chart v2 (반응형 X)</h2>
+		    	<div class="scrBox_X">
+		    		<div id="top_x_div" style="width: 900px; height: 500px;"></div>
+		    	</div>
+
+		    	<br/><br/><br/><br/>
+
+		    	<h2 class="tit">Column Chart v1 (반응형 X)</h2>
+		    	<div class="scrBox_X">
+		    		<div id="columnchart_material" style="width: 900px; height: 500px;"></div>
+		    	</div>
+
+		    	<h2 class="tit">Pie Chart v1 (반응형 X)</h2>
+		    	<div class="scrBox_X">
+		    		<div id="piechart" style="width: 900px; height: 500px;"></div>
+		    	</div>
+
+    
+
+		    </section>
+		    <!-- //.content -->
+		</div>
+		<!-- //.content-wrapper -->
+
+		<!-- footer -->
+		<footer class="footer">
+			<strong>Copyright &copy; 2017 Ishift.</strong> All rights reserved.
+		</footer>
+		<!-- //.footer -->
+
+		<!-- control-sidebar-->
+		<aside class="control-sidebar">
+		<!-- control-sidebar-tabs -->
+		<ul class="control-sidebar-tabs">
+			<li class="active">
+				<a href="#" data-toggle="tab">
+					<i class="fa fa fa-wrench"></i>
+				</a>
+			</li>
+			<li>
+				<a href="#" data-toggle="tab">
+					<i class="fa fa-home"></i>
+				</a>
+			</li>
+			<li>
+				<a href="#" data-toggle="tab">
+					<i class="fa fa-gears"></i>
+				</a>
+			</li>
+		</ul>
+		</aside>
+		<!-- //.control-sidebar -->
+
+	</div>
+<!-- ./wrapper -->
+
+<!-- jquery -->
+<script type="text/javascript" src="../../js/jquery/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="../../js/jquery/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../../js/jquery/jquery.easing.1.3.min.js"></script>
+<script type="text/javascript" src="../../js/jquery/jquery-ui.js"></script>
+<script type="text/javascript" src="../../js/jquery/grid.locale-kr.js"></script>
+<script type="text/javascript" src="../../js/jquery/jquery.jqGrid.js"></script>
+<script type="text/javascript" src="../../js/default.js"></script>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+	google.charts.load('current', {'packages':['bar']});
+
+	//Bar Chart v1
+	google.charts.setOnLoadCallback(drawChart);
+
+	function drawChart() {
+		var data = google.visualization.arrayToDataTable([
+			['Year', 'Sales', 'Expenses', 'Profit'],
+			['2014', 1000, 400, 200],
+			['2015', 1170, 460, 250],
+			['2016', 660, 1120, 300],
+			['2017', 1030, 540, 350]
+		]);
+
+		var options = {
+			chart: {
+				title: 'Company Performance',
+				subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+			},
+			bars: 'horizontal' // Required for Material Bar Charts.
+		};
+
+		var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+
+		chart.draw(data, google.charts.Bar.convertOptions(options));
+	}
+
+
+	//Bar Chart v2
+	google.charts.setOnLoadCallback(drawStuff);
+
+	function drawStuff() {
+		var data = new google.visualization.arrayToDataTable([
+			['Opening Move', 'Percentage'],
+			["King's pawn (e4)", 44],
+			["Queen's pawn (d4)", 31],
+			["Knight to King 3 (Nf3)", 12],
+			["Queen's bishop pawn (c4)", 10],
+			['Other', 3]
+		]);
+
+		var options = {
+			title: 'Chess opening moves',
+			width: 900,
+			legend: { position: 'none' },
+			chart: { title: 'Chess opening moves',
+			       subtitle: 'popularity by percentage' },
+			bars: 'horizontal', // Required for Material Bar Charts.
+			axes: {
+				x: {
+					0: { side: 'top', label: 'Percentage'} // Top x-axis.
+				}
+			},
+			bar: { groupWidth: "90%" }
+		};
+
+		var chart = new google.charts.Bar(document.getElementById('top_x_div'));
+		chart.draw(data, options);
+	};
+
+	//Column Chart v1
+	google.charts.setOnLoadCallback(columnChart);
+
+	function columnChart() {
+		var data = google.visualization.arrayToDataTable([
+			['Year', 'Sales', 'Expenses', 'Profit'],
+			['2014', 1000, 400, 200],
+			['2015', 1170, 460, 250],
+			['2016', 660, 1120, 300],
+			['2017', 1030, 540, 350]
+		]);
+
+		var options = {
+			chart: {
+			title: 'Company Performance',
+			subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+			}
+		};
+
+		var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+		chart.draw(data, google.charts.Bar.convertOptions(options));
+	}
+
+
+	google.charts.load("current", {packages:["corechart"]});
+	google.charts.setOnLoadCallback(pieChart);
+	function pieChart() {
+		var data = google.visualization.arrayToDataTable([
+			['Language', 'Speakers (in millions)'],
+			['Assamese', 13], ['Bengali', 83], ['Bodo', 1.4],
+			['Dogri', 2.3], ['Gujarati', 46], ['Hindi', 300],
+			['Kannada', 38], ['Kashmiri', 5.5], ['Konkani', 5],
+			['Maithili', 20], ['Malayalam', 33], ['Manipuri', 1.5],
+			['Marathi', 72], ['Nepali', 2.9], ['Oriya', 33],
+			['Punjabi', 29], ['Sanskrit', 0.01], ['Santhali', 6.5],
+			['Sindhi', 2.5], ['Tamil', 61], ['Telugu', 74], ['Urdu', 52]
+		]);
+
+		var options = {
+			title: 'Indian Language Use',
+			legend: 'none',
+			pieSliceText: 'label',
+			slices: {   4: {offset: 0.2},
+						12: {offset: 0.3},
+						14: {offset: 0.4},
+						15: {offset: 0.5},
+			},
+		};
+
+		var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+		chart.draw(data, options);
+	}
+</script>
+
+</body>
+</html>
