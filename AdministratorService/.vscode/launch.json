@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AdministratorServiceApplication<AdministratorService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.demo.administrator.AdministratorServiceApplication",
+            "projectName": "AdministratorService",
+            "args": ""
+        }
+    ]
+}
