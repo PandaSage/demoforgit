@@ -1,6 +1,6 @@
 package com.demo.administrator.config;
 
-
+//ㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎ
 
 public class DatabaseConfigurationForProperties {
 		/*// 설정을 한 클래스에 몰아 넣기위해 클래스 안에 클래스를 만듬.
